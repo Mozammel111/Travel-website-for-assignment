@@ -1,0 +1,28 @@
+@media screen and (max-width: 600px) {
+    .main,
+    .main .menu_name ul{
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 35px;
+        padding-top: 35px;
+    }
+    
+    .main .menu_name ul li{
+        margin-bottom: 20px;
+    }
+}
+
+
+
+@media screen and (min-width: 601px) and (max-width: 900px) {
+    .main,
+    .main .menu_name ul{
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 150px;
+        padding-top: 35px;
+    }
+    .main .menu_name ul li{
+        margin-bottom: 20px;
+    }
+}

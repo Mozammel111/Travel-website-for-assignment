@@ -17,7 +17,137 @@ a{
     margin: 0 auto;
 }
 
-/* common css end */
 body{
     font-family: 'Mulish', sans-serif;
 }
+/* common css end */
+
+/* header part start */
+.header_top{
+    padding: 52px 5px;
+}
+.main{
+   display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main .logo_logotext{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.main .logo_logotext h2{
+    font-size: 36px;
+    font-weight: 800;
+    color: #424247;
+}
+.main .logo_logotext .h2_color{
+    color: #FF5400;
+}
+.main .menu_name ul{
+    display: flex;
+}
+
+.main .menu_name ul li{
+    margin-left: 20px;
+}
+.main .menu_name ul li a{
+    font-size: 18px;
+    font-weight: 400;
+    color: #424247;
+}
+.menu_name ul li a:hover{
+    color: #FF5400;
+}
+
+/* header part end */
+/* main part first section start */
+#travel_heading{
+    padding: 10px 5px;
+}
+.main_image{
+    background: url(../Images/Group\ 13\ \(1\)\ \(1\).png) no-repeat, center;
+    margin-top: 50px;
+    background-size: cover;
+    border-radius: 16px;
+    text-align: center;
+}
+.main_background{
+    background-color: rgba(34, 34, 36, 0.733), rgba(4, 0, 15, 0.062);
+    /* background-color: rgba(19, 19, 24, 0.514) 0%, rgba(19, 19, 24, 0.00) 100%; */
+    padding: 106px 50px;
+}
+.main_background h1{
+    font-size: 64px;
+    font-weight: 800;
+    color: #FFF;
+    margin-bottom: 24px;
+    text-align: center;
+}
+.main_background p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFF;
+    line-height: 26px;
+    margin-bottom: 48px;
+    text-align: center;
+}
+.menu_background{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    width: 800px;
+    background-color: rgba(255, 255, 255, 0.30);
+    border-radius: 8px;
+    padding: 16px;
+    margin: 0 auto;
+  
+}
+.menu_background .menu_list{
+    background-color: #FFF;
+    padding: 16px;
+    width: 174px;
+    border-radius: 8px;
+
+}
+.menu_list{
+    display: flex;
+    justify-content: space-between;
+}
+.menu_background .menu_list h3{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(19, 19, 24, 0.50);
+
+}
+.menu_list_4{
+    background-color: #FF5400;
+    color: #FFF;
+    width: 174px;
+    border-radius: 8px;
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+/* main part first section end */
+/* popular tour part start */
+.popular{
+    margin-top: 50px;
+}
+.popular_tour{
+
+    display: flex;
+    justify-content: space-between;
+   
+}
+.left h2{
+    font-size: 40px;
+    font-weight: 800;
+    color: #131318;
+    margin-bottom: 15px;
+}
+
+
+
+/* popular tour part end */
