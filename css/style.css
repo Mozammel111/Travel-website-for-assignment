@@ -20,6 +20,11 @@ a{
 body{
     font-family: 'Mulish', sans-serif;
 }
+.country_name{
+    font-size: 28px;
+    font-weight: 800;
+    color: #FFF;
+}
 /* common css end */
 
 /* header part start */
@@ -174,3 +179,75 @@ body{
     margin-top: 10px;
 }
 /* popular tour part end */
+/* destination part start */
+.destination{
+    margin: 60px 0;
+}
+.main_part{
+    text-align: center;
+}
+.main_part h1{
+    font-size: 40px;
+    font-weight: 800;
+    color: #131318;
+    margin-bottom: 15px;
+}
+.main_part p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: rgba(19, 19, 24, 0.70);
+    margin-bottom: 50px;
+}
+.first_row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.main_pick{
+    position: relative;
+    text-align: center;
+    color: #FFF;
+}
+
+.country_name{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.second_row{
+    display: flex;
+    justify-content: space-between;
+}
+.sec_pic{
+    position: relative;
+    text-align: center;
+    color: #FFF;
+}
+
+.country_name{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.third_row{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.third_pic{
+    position: relative;
+    text-align: center;
+    color: #FFF;
+}
+
+.country_name{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* destination part end */
